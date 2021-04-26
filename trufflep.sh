@@ -11,6 +11,7 @@ Help()
    echo "options:"
    echo "h     Print this Help."
    echo "a     Directory where to create the project."
+   echo "v     Print script version"
    echo
 }
 
@@ -297,6 +298,12 @@ if [ "$1" == "-h" -o "$1" == "--help" -o "$1" == "--h" -o "$1" == "-help" ]
 then
     Help
     exit 1
+fi
+
+if [ "$#" -eq 1 -a "$1" == "-v" ]
+then
+    echo "$VERSION"
+    exit 0
 fi
 
 if [ "$1" == "-a" ]
