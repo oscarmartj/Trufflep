@@ -11,7 +11,7 @@ Available options?
 
 - To see the version of the script: trufflep -v
 - To open the help menu: trufflep -h
-- To create a project in a specific directory: trupplep -a <directory>
+- To create a project in a specific directory: trupplep -a [directory]
 - To create a project in the current directory: trufflep
 
 # Relax!
