@@ -1,7 +1,7 @@
 # Trufflep
 How to install?
 
-1. Make sure that the trufflep.sh script has execution permissions, if not, use the following command: chmod + x trufflep.sh
+1. Make sure that the trufflep.sh script has execution permissions, if not, use the following command: chmod +x trufflep.sh
 2. Rename the script file from "trufflep.sh" to "trufflep", thus removing the file extension.
 3. Copy the script file and paste it into the "/bin" directory of your operating system.
 4. Ready! Now you can use the script to create truffle & node projects automatically, using the "trufflep" command.
