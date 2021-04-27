@@ -67,9 +67,9 @@ CreateProject()
 
     if [ "$#" -eq 1 ]
     then
-        DIRECTORYNAME = "$1"
+        DIRECTORYNAME="$1"
     else
-        DIRECTORYNAME = "$PROJECTNAME"
+        DIRECTORYNAME="$PROJECTNAME"
     fi
 
     mkdir "$DIRECTORYNAME"
@@ -308,7 +308,7 @@ fi
 
 if [ "$1" == "-a" ]
 then
-    if[ "$#" -gt 2 -o "$#" -eq 1 ]
+    if [ "$#" -gt 2 -o "$#" -eq 1 ]
     then
         echo "Trufflep: Wrong number of arguments... "
         exit 1
