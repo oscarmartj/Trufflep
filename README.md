@@ -16,4 +16,4 @@ Available options?
 
 # Relax!
 
-During the creation of a project you must indicate the Etherscan APIKEY (or bscscan) to later verify the contracts and also you must indicate the private key of your wallet to be able to display the contracts. In both cases, this private information is only stored on your computer locally in the .secret and .apikey files. At no time is it sent to any third party service!
+During the creation of a project you must indicate the Etherscan APIKEY (or bscscan) to later verify the contracts and also you must indicate the private key of your wallet to be able to deploy the contracts. In both cases, this private information is only stored on your computer locally in the .secret and .apikey files. At no time is it sent to any third party service!
